@@ -71,10 +71,12 @@ h6 {
 
 body {
     font-family:
-        M PLUS Code Latin,
+        Aldrich,
         system-ui,
         -apple-system,
         sans-serif;
+    opacity: 0.91;
+    overflow: clip;
 }
 
 .container {
@@ -96,16 +98,30 @@ body {
 }
 
 .sidebar > div {
+    transform: translate(10%, 0%);
     display: flex;
     align-items: center;
+    gap: 0.75rem;
 }
 
-.sidebar > div > h1 {
-    padding-left: 0.75rem;
+.sidebar > div > object {
+    transform: translate(0%, -5%);
 }
 
-.sidebar > div > h2 {
-    padding-left: 1.5rem;
+.sidebar > div > h3 {
+    transform: translate(0%, 5%);
+}
+
+.sidebar > div > #logo-text {
+    transform: translate(0%, 7.5%);
+}
+
+.sidebar > #home > object {
+    transform: translate(0%, -10%);
+}
+
+.sidebar > #message > object {
+    transform: translate(0%, 5%);
 }
 
 .main-content {
