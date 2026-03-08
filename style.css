@@ -82,7 +82,7 @@ body {
 .container {
     height: 100vh;
     display: grid;
-    grid-template: minmax(300px, 27.5%) 1fr / minmax(270px, 13.5%) 1fr;
+    grid-template: minmax(300px, 27.5%) 1fr / minmax(270px, 13.75%) 1fr;
 }
 
 .header {
@@ -97,7 +97,7 @@ body {
     grid-template-rows: auto 1fr auto;
     align-content: space-between;
     justify-content: space-between;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .sidebar > .group-one div,
