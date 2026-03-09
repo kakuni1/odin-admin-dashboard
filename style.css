@@ -178,6 +178,11 @@ body {
     grid-column: 2;
 }
 
+.main-content > .announcement > #island-top > #lined {
+    border-bottom: 3px solid #414868;
+    margin-bottom: 1rem;
+}
+
 .main-content > .announcement > #island-top > h4 {
     margin-bottom: 0.5rem;
 }
