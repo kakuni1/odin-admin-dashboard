@@ -133,14 +133,6 @@ body {
     min-height: 100%;
 }
 
-.main-content > .project {
-    grid-area: 1 / 1 / 4 / 2;
-}
-
-.main-content > .project > h2 {
-    grid-area: 1 / 1 / 2 / 3;
-}
-
 .main-content > .project > .cards {
     margin: 2rem;
     display: grid;
