@@ -205,13 +205,21 @@ body {
     grid-row: 2;
 }
 
+.main-content > .trend > #island-bottom > img {
+    padding-left: 0.33rem;
+}
+
 .main-content > .trend > #island-bottom {
     display: grid;
-    grid-template-columns: 1fr 3.5fr;
+    grid-template-columns: 1fr 2.5fr;
 }
 
 .main-content > .trend > #island-bottom > div {
     grid-column: 2;
+}
+
+.main-content > .trend > #island-bottom > div > p {
+    margin-bottom: 0.33rem;
 }
 
 .main-content > .project > h2,
