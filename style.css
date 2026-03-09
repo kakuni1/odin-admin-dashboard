@@ -162,7 +162,8 @@ body {
 .main-content > .announcement > #island-top {
     background-color: #c0caf5;
     border-radius: 7.5px;
-    padding: 0.75rem;
+    padding: 1rem;
+    margin-right: 1rem;
     display: grid;
     grid-template: 1 / 4;
 }
