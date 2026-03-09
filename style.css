@@ -206,6 +206,15 @@ body {
     grid-row: 2;
 }
 
+.main-content > .trend > #island-bottom {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.main-content > .trend > #island-bottom > div {
+    grid-column: 2;
+}
+
 .main-content > .project > h2,
 .main-content > .announcement > h2,
 .main-content > .trend > h2 {
