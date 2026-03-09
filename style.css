@@ -159,6 +159,25 @@ body {
     grid-column: 2;
 }
 
+.main-content > .announcement > #island-top {
+    background-color: #c0caf5;
+    border-radius: 7.5px;
+    padding: 0.75rem;
+    display: grid;
+    grid-template: 1 / 4;
+}
+
+.main-content > .announcement > #island-top > h4,
+.main-content > .announcement > #island-top > p {
+    padding-bottom: 0.5rem;
+    line-height: 1.75;
+    grid-column: 2;
+}
+
+.main-content > .announcement > #island-top > h4 {
+    margin-bottom: 0.5rem;
+}
+
 .main-content > .announcement {
     grid-area: 1 / 2 / 2 / 3;
 }
@@ -168,7 +187,7 @@ body {
 }
 
 .main-content > .project > h2,
-.main-content > .announcement,
-.main-content > .trend {
-    padding: 1rem;
+.main-content > .announcement > h2,
+.main-content > .trend > h2 {
+    padding: 1.75rem;
 }
