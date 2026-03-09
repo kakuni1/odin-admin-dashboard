@@ -102,7 +102,6 @@ body {
 
 .sidebar > .group-one div,
 .sidebar > .group-two div {
-    transform: translate(10%, 0%);
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -131,16 +130,48 @@ body {
     background-color: #a9b1d6;
     display: grid;
     grid-template: 1.25fr 1fr / 3fr 1fr;
+    min-height: 100%;
 }
 
-.main-content > #project {
-    grid-area: 1 / 1 / 3 / 2;
+.main-content > .project {
+    grid-area: 1 / 1 / 4 / 2;
 }
 
-.main-content > #announcement {
+.main-content > .project > h2 {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.main-content > .project > .cards {
+    margin: 2rem;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    grid-area: 1 / 1 / 5 / 3;
+    gap: 1.5rem;
+}
+
+.main-content > .project > .cards > #card {
+    background-color: #c0caf5;
+    border-radius: 7.5px;
+    padding: 0.75rem;
+}
+
+.main-content > .project > .cards > #card > h4,
+.main-content > .project > .cards > #card > p {
+    padding-bottom: 0.5rem;
+    line-height: 1.75;
+    grid-column: 2;
+}
+
+.main-content > .announcement {
     grid-area: 1 / 2 / 2 / 3;
 }
 
-.main-content > #trend {
+.main-content .trend {
     grid-area: 2 / 2 / 3 / 3;
+}
+
+.main-content > .project > h2,
+.main-content > .announcement,
+.main-content > .trend {
+    padding: 1rem;
 }
