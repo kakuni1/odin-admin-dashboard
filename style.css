@@ -207,7 +207,7 @@ body {
 
 .main-content > .trend > #island-bottom {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 3.5fr;
 }
 
 .main-content > .trend > #island-bottom > div {
